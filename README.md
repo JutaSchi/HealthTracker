@@ -86,6 +86,6 @@ More ways to support the project will be added soon.
 
 I believe in **decentralized and open-source payment methods**, and I want HealthTracker to remain as open and accessible as possible.
 
-Thanks for checking out the project and following along with the development.-Julian
+Thanks for checking out the project and following along with the development.
 
 *Made with ❤️ in the Nordics*
