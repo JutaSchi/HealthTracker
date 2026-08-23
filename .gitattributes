@@ -1,0 +1,4 @@
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_pro text eol=lf
+*.kicad_prl text eol=lf
