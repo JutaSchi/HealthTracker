@@ -1,5 +1,6 @@
 # HealthTracker
 
+> It might seem that im not working on this project but this is under active development
 > ⚠️ **Very early development:** HealthTracker is **not finished and is not currently being tested as a working device**. I am still designing the first hardware revision.
 
 The current focus is **Revision 1 (Rev 1)**. This board is being designed specifically to give me a platform for debugging the hardware, testing the individual chips, and developing the actual firmware.
@@ -18,6 +19,7 @@ Once Rev 1 is manufactured and assembled, the next stage will be hardware bring-
 * **MAX30205** | Analog Devices / Maxim | Body temperature
 * **ICM-42605** | TDK InvenSense | 6-axis IMU, accelerometer + gyroscope
 * **MAX30003** | Analog Devices / Maxim | Single-channel ECG
+* **Maybe a UWB sensor later on (could be cool)** (no promises)
 
 ### Planned interfaces
 
