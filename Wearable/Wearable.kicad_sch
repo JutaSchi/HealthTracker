@@ -3841,260 +3841,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:PESD3V3L4UF"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PESD3V3L4UF"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-886"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-886"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?886*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PESD3V3L4UF_0_1"
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 0) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy -1.016 0) (xy 1.016 -1.016) (xy 1.016 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PESD3V3L4UF_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PESD3V3L4UF_2_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PESD3V3L4UF_3_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "K3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PESD3V3L4UF_4_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "K4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:LD1117S33TR_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5410,6 +5156,12 @@
 		(uuid "6e494ebd-d4e7-4cc3-b0bd-96e3054fe5a3")
 	)
 	(junction
+		(at 189.23 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bed87c36-2a50-42f9-b8d9-3834d1c93326")
+	)
+	(junction
 		(at 232.41 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5428,10 +5180,22 @@
 		(uuid "d0640f79-b98d-44d2-b286-efd4c9777f5d")
 	)
 	(junction
+		(at 180.34 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de5634b9-acfb-400e-9669-f2ce8000f19c")
+	)
+	(junction
 		(at 87.63 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e01722eb-dac0-44a9-b381-a24a13f5f6a0")
+	)
+	(junction
+		(at 153.67 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecc49085-e3e6-4567-bbb8-309838fe2e93")
 	)
 	(junction
 		(at 87.63 171.45)
@@ -5467,6 +5231,36 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 107.95) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02015fea-5f9b-4284-bd3f-42cdc565d254")
+	)
+	(wire
+		(pts
+			(xy 152.4 146.05) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036f06e1-db82-4e07-9dad-be410a0a1554")
+	)
+	(wire
+		(pts
+			(xy 92.71 114.3) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ce98e3-f755-41a3-b72c-4cb95941e7b1")
+	)
+	(wire
+		(pts
 			(xy 104.14 139.7) (xy 104.14 138.43)
 		)
 		(stroke
@@ -5474,6 +5268,26 @@
 			(type default)
 		)
 		(uuid "0a9f07fb-6add-48d4-9b49-bdeb44275057")
+	)
+	(wire
+		(pts
+			(xy 140.97 156.21) (xy 153.67 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11620ad9-fbb7-427f-b96d-772c30367060")
+	)
+	(wire
+		(pts
+			(xy 95.25 119.38) (xy 92.71 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137b3cc1-1a53-4435-8982-13d09ce2133e")
 	)
 	(wire
 		(pts
@@ -5537,7 +5351,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 156.21) (xy 153.67 156.21)
+			(xy 237.49 156.21) (xy 189.23 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5577,6 +5391,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 152.4) (xy 215.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e0b39c-3437-4cae-a05c-ae02eee2aec9")
+	)
+	(wire
+		(pts
+			(xy 95.25 124.46) (xy 95.25 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d9e607-b271-438e-8671-b5d5861bbabf")
+	)
+	(wire
+		(pts
 			(xy 19.05 163.83) (xy 49.53 163.83)
 		)
 		(stroke
@@ -5587,6 +5421,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 116.84) (xy 104.14 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab540bd-675d-4d62-99d7-d30166a7df63")
+	)
+	(wire
+		(pts
+			(xy 134.62 114.3) (xy 134.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df709e4-6e62-4ae4-8803-65a068e85820")
+	)
+	(wire
+		(pts
 			(xy 104.14 144.78) (xy 104.14 146.05)
 		)
 		(stroke
@@ -5594,6 +5448,16 @@
 			(type default)
 		)
 		(uuid "3f5ea6c0-2a72-494e-aeb4-2737b0aa3d15")
+	)
+	(wire
+		(pts
+			(xy 104.14 119.38) (xy 229.87 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6d2ee5-23e4-4e2d-9598-a2d75db0acaa")
 	)
 	(wire
 		(pts
@@ -5647,6 +5511,36 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 111.76) (xy 129.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b0f4e7-0bb8-4a2a-b4bb-50b60b2cf5ca")
+	)
+	(wire
+		(pts
+			(xy 189.23 156.21) (xy 153.67 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59cc3e6a-3686-4cd2-b1a2-400be35e7743")
+	)
+	(wire
+		(pts
+			(xy 148.59 130.81) (xy 180.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b20206d-b23d-4dba-b799-5ef73ce56bdd")
+	)
+	(wire
+		(pts
 			(xy 91.44 185.42) (xy 87.63 185.42)
 		)
 		(stroke
@@ -5664,6 +5558,16 @@
 			(type default)
 		)
 		(uuid "65b2f288-9801-4a9f-bddd-5eb0c2451f79")
+	)
+	(wire
+		(pts
+			(xy 154.94 67.31) (xy 154.94 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e769fa0-1d03-4d5f-8901-e1bb0e7fe3d5")
 	)
 	(wire
 		(pts
@@ -5717,6 +5621,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 109.22) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857a1456-c6e2-48cd-b1c6-5c5435dfb9d9")
+	)
+	(wire
+		(pts
 			(xy 104.14 138.43) (xy 107.95 138.43)
 		)
 		(stroke
@@ -5767,6 +5681,26 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 119.38) (xy 232.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9328bd7f-ab7b-46ec-b6b3-57dd03a3742f")
+	)
+	(wire
+		(pts
+			(xy 154.94 62.23) (xy 189.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b07f501-7958-4659-bafb-37895bdb0d2b")
+	)
+	(wire
+		(pts
 			(xy 104.14 146.05) (xy 107.95 146.05)
 		)
 		(stroke
@@ -5774,6 +5708,16 @@
 			(type default)
 		)
 		(uuid "9b8477a5-0996-4ba2-909d-1ef3bf7e5d52")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c07efb3-4933-49bc-bd5d-9e41ed02a44a")
 	)
 	(wire
 		(pts
@@ -5787,6 +5731,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 62.23) (xy 189.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8b4e42-9fb3-4458-ae1f-5d757af15c00")
+	)
+	(wire
+		(pts
 			(xy 215.9 152.4) (xy 215.9 72.39)
 		)
 		(stroke
@@ -5794,6 +5748,16 @@
 			(type default)
 		)
 		(uuid "9ee8933b-35d4-4d97-a030-a8f4aebcf7c2")
+	)
+	(wire
+		(pts
+			(xy 104.14 119.38) (xy 104.14 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee985e6-4b0f-4d62-93d5-d6c7cf183eae")
 	)
 	(wire
 		(pts
@@ -5817,6 +5781,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 146.05) (xy 152.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a76287-18cf-47e7-8c33-d6bc7c53a8a5")
+	)
+	(wire
+		(pts
+			(xy 140.97 138.43) (xy 140.97 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a619794a-640a-43fd-9827-fa220dd9b3c5")
+	)
+	(wire
+		(pts
 			(xy 91.44 190.5) (xy 91.44 196.85)
 		)
 		(stroke
@@ -5837,6 +5821,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 138.43) (xy 19.05 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b283fc1f-33e6-4681-93cf-33ecc6e98bc7")
+	)
+	(wire
+		(pts
 			(xy 87.63 171.45) (xy 87.63 185.42)
 		)
 		(stroke
@@ -5847,7 +5841,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 152.4) (xy 215.9 152.4)
+			(xy 139.7 152.4) (xy 180.34 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5864,6 +5858,16 @@
 			(type default)
 		)
 		(uuid "c9af6cfb-8fc7-4f51-80e1-83a54cbd85f8")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce387bcc-6092-4026-9706-733deb9aa675")
 	)
 	(wire
 		(pts
@@ -5894,6 +5898,16 @@
 			(type default)
 		)
 		(uuid "d45956c2-2b5e-4e5a-ab26-9d2595c0971f")
+	)
+	(wire
+		(pts
+			(xy 180.34 130.81) (xy 180.34 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c6cfbd-ea1b-42a4-a787-af19f2c5d1b0")
 	)
 	(wire
 		(pts
@@ -5957,6 +5971,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 107.95) (xy 129.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f83adc-a2f9-4acd-861f-19200262fb63")
+	)
+	(wire
+		(pts
 			(xy 153.67 190.5) (xy 91.44 190.5)
 		)
 		(stroke
@@ -5984,6 +6008,16 @@
 			(type default)
 		)
 		(uuid "fcbdb905-9036-47fc-8e70-2a0b9cc9a715")
+	)
+	(wire
+		(pts
+			(xy 232.41 124.46) (xy 95.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff6f858-3bc3-433e-b82f-1eefff2f39fb")
 	)
 	(label "USB_5V"
 		(at 17.78 167.64 90)
@@ -6015,7 +6049,7 @@
 		)
 		(uuid "46314712-54b6-4bc9-a278-f8a0bfaa4fe8")
 	)
-	(label "DC{slash}DC power network"
+	(label "DC{slash}DC power network?"
 		(at 13.97 129.54 0)
 		(effects
 			(font
@@ -6277,7 +6311,7 @@
 				)
 			)
 		)
-		(property "Value" "w"
+		(property "Value" "nRF54L15-QFAA"
 			(at 64.77 91.44 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -6644,102 +6678,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PESD3V3L4UF")
-		(at 19.05 140.97 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e6d9b0e-de2d-45a2-a143-68490b94b9b1")
-		(property "Reference" "D1"
-			(at 21.59 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD3V3L4UF"
-			(at 21.59 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-886"
-			(at 24.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 13.97 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-886"
-			(at 19.05 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "94508ba7-505f-4a06-adc8-e3a9f4a54e34")
-		)
-		(pin "4"
-			(uuid "9dc4529a-8a68-49e3-96b3-a2303d1e4ade")
-		)
-		(pin "1"
-			(uuid "46a660fc-6ae3-4242-9cdb-6906ec1a3029")
-		)
-		(pin "2"
-			(uuid "55780199-9912-45fe-a89c-3cbc41df3328")
-		)
-		(pin "5"
-			(uuid "51c70a4b-bd77-4908-bfc3-23010154b77f")
-		)
-		(pin "6"
-			(uuid "1a1d209b-f307-4452-8797-021941ef97d6")
-		)
-		(instances
-			(project "Wearable"
-				(path "/59dd9bf7-e950-466a-a8e8-a831e2562785"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Plug")
-		(at 123.19 85.09 90)
+		(at 132.08 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6750,7 +6690,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ba43d8e-4e49-4b87-9900-bb9299c2766e")
 		(property "Reference" "P1"
-			(at 127 97.79 90)
+			(at 135.89 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6760,7 +6700,7 @@
 			)
 		)
 		(property "Value" "USB_C_Plug"
-			(at 127 100.33 90)
+			(at 135.89 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6770,7 +6710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 81.28 0)
+			(at 132.08 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6781,7 +6721,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 123.19 81.28 0)
+			(at 132.08 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6792,7 +6732,7 @@
 			)
 		)
 		(property "Description" "USB Type-C Plug connector"
-			(at 123.19 85.09 0)
+			(at 132.08 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6882,7 +6822,7 @@
 	)
 	(symbol
 		(lib_id "mAX30003:MAX30003CTI+T")
-		(at 195.58 139.7 180)
+		(at 160.02 67.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6893,27 +6833,29 @@
 		(fields_autoplaced yes)
 		(uuid "7ca0afca-d499-4599-bc42-e692a6ddac6e")
 		(property "Reference" "U5"
-			(at 175.26 93.98 0)
+			(at 166.37 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MAX30003CTI+T"
-			(at 175.26 96.52 0)
+			(at 166.37 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "21-0140L_T2855-8_MXM"
-			(at 195.58 139.7 0)
+			(at 160.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6925,7 +6867,7 @@
 			)
 		)
 		(property "Datasheet" "MAX30003CTI+T"
-			(at 195.58 139.7 0)
+			(at 160.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6937,7 +6879,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 139.7 0)
+			(at 160.02 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7343,6 +7285,91 @@
 			(project "Wearable"
 				(path "/59dd9bf7-e950-466a-a8e8-a831e2562785"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
+		(at 148.59 138.43 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7d9aae2-1136-46f0-be35-f050344b28f2")
+		(property "Reference" "U7"
+			(at 152.4 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LD1117S33TR_SOT223"
+			(at 152.4 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 153.67 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(at 142.24 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
+			(at 148.59 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5a288a38-8a55-46f4-b87f-b6fbc2d54cab")
+		)
+		(pin "1"
+			(uuid "1fb8d767-8df4-4648-9ca7-7a4bdaa9146e")
+		)
+		(pin "3"
+			(uuid "39d243cb-8049-46d9-9e32-96e942ead96c")
+		)
+		(instances
+			(project "Wearable"
+				(path "/59dd9bf7-e950-466a-a8e8-a831e2562785"
+					(reference "U7")
 					(unit 1)
 				)
 			)

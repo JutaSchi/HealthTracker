@@ -1,3 +1,5 @@
 # KiCad temporary files
 *.lck
 .history/
+# Wearable backups
+Wearable/Wearable-backups/
