@@ -8,3 +8,7 @@ firmware/build/
 
 # Wearable backups
 Wearable/Wearable-backups/
+
+
+#python enviroment for the app/pc python programs
+.venv
