@@ -3,3 +3,5 @@
 .history/
 # Wearable backups
 Wearable/Wearable-backups/
+# Firmware
+build*/
